@@ -250,7 +250,9 @@ export class Audio
 
         if(import.meta.env.VITE_MUSIC)
         {
-            this.playlist.play()
+            // sources/Game/Audio.js
+            // 注释掉自动播放
+            // this.playlist.play()
         }
     }
 
